@@ -22,8 +22,8 @@ def print_list(language: str, directory: str):
     extensions_dict = {'PHP': '.php'}
     grep_dict = {
         'PHP': {
-            'PHPDoc': ' \* Class ',
-            'class': 'class '
+            'PHPDoc': ' \* (Class|Interface) ',
+            'declaration': '(class|abstract class|interface|trait) '
         }
     }
 
