@@ -8,7 +8,7 @@ python imonits.py -d /var/local/hoge/
 
 When excude warning by PHPDoc. For example use egrep.
 ```
-python imonits.py -d /var/local/hoge/ | egrep -v '0      | 1' 
+python imonits.py -d /var/local/hoge/ | egrep -v '0      \| 1' 
 ```
 
 ## Submodule
